@@ -1,0 +1,137 @@
+#headings #text{
+width: 1550px;
+}
+#items {
+	width: 125px;
+	text-align: right;
+	font-size: 10px;
+}
+
+.headings h1 {
+	font-size: 25px;
+	color: green;
+	padding: 1px;
+
+margin-left: -350px;
+text-align: center;
+font-family: Montserrat;
+
+}
+p {
+
+margin-left: -340px;
+text-align: center;
+margin-bottom: -2px;
+}
+.headings2 {
+	text-align: center;
+	width: 875px;
+}
+#image2 {
+	width: 1525px;
+}
+.image {
+	background-image: url('../images/fruit-vegetables-7134854.jpg');
+background-repeat: no-repeat;
+    background-position: top; 
+    height:185px;
+margin-left: 190px;
+}
+
+.items li {
+    	text-align: center;
+		list-style-type: none;
+		text-align: right;
+	    line-height: 380%;
+	    font-size: 9px;
+	    margin-left: 1px;
+
+	}
+.button {
+	text-align: center;
+	margin-left: -200px;
+}
+li {
+	line-height: 200%;
+}	
+.image {
+	width: 500px;
+
+}
+#instructions li {
+	font-size: 8px;
+	list-style-type: none;
+	line-height:275%;
+	color: green;
+border: 1px solid red;
+}
+li {
+	list-style-type: none;
+}
+
+.items {
+	width: 1800px;
+}
+.btn {
+	margin: 1px;
+text-shadow: 2px black;
+    padding: 1px;
+    border-top: 2px solid black;
+    border-bottom:  2px solid black;
+    border-right: 3px solid black;
+border-left: 1px solid black;
+height: 29px;
+width: 5px;
+font-size: 11px;
+
+
+}
+img {
+float: left;
+border-right-style: solid;
+border-right-color: #CCCCCC;
+border-bottom-style: solid;
+border-bottom-color: #999999;
+}
+
+.col-md-4{
+	font-size: 8px;
+	text-align: left;
+}
+
+}
+.col-md-4 li{
+	font-size:  10px;
+	line-height: 290%;
+
+}
+
+
+.input-group {
+	margin: 1px;
+text-shadow: 2px black;
+    padding: 1px;
+    border-top: 2px solid black;
+    border-bottom:  2px solid black;
+    border-right: 3px solid black;
+border-left: 1px solid black;
+height: 3px;
+width: 325px;
+font-size: 11px;
+  margin-left: 289px;
+
+margin-left: 0px
+text align: center;
+}
+@media only screen and (max-width:  825px) {
+  .masthead {
+    padding: 3em 0
+  }
+width: 600px;
+}
+col-md-2 {
+	padding:0;
+}
+body {
+	background-color: #2E8B57;
+}
