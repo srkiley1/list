@@ -44,9 +44,9 @@ p {
    	text-align: center;
  	list-style-type: none;
  	text-align: right;
-    line-height: 380%;
+	line-height: 380%;
 	font-size: 9px;
-    margin-left: 1px;
+	margin-left: 1px;
 }
 
 .button {
