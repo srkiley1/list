@@ -8,8 +8,8 @@ $(document).ready( function(){
 	//	alert($("#text2").val());
 	$("#items").prepend("<li class='list-item'>" + $("#text2").val() + "</li>");
 
-		 });
+			});
 	$('button').click(function() {
 		$('.list-item').first().remove();
-		});
-	});
+			});
+});
