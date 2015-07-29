@@ -1,5 +1,5 @@
 #headings #text{
-	width: 1550px;
+	width: 845px;
 }
 
 #items {
@@ -18,7 +18,7 @@
 }
 
 p {
-	margin-left: -340px;
+	margin: 20px;
 	text-align: center;
 	margin-bottom: -2px;
 }
@@ -99,8 +99,8 @@ img {
 	border-bottom-color: #999999;
 }
 
-.col-md-4 {
-	font-size: 8px;
+.col-md-7 {
+	font-size: 10px;
 	text-align: left;
 }
 
@@ -125,8 +125,8 @@ img {
 	text-align: center;
 }
 
-@media only screen and (max-width:  500px) {
-  .masthead {
+@media only screen and (max-width:  400px) {
+ .masthead {
     padding: 3em 0
   }
   .masthead-heading {
@@ -140,4 +140,5 @@ col-md-2 {
 
 body {
 	background-color: #2E8B57;
+	width: 850px;
 }
