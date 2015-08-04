@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Shopping List App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-9">
+          <div class="jumbotron">
+            <h1>Shopping List App</h1>
+            <p>Necessity is the mother of invention!</p>
+
+
+            <label for="usr">Add new item:</label>
+            <input type="text" class="form-control" id="new-item-input">
+
+            <br>
+
+            <a class="btn btn-success add">Add item</a>
+            <a class="btn btn-danger remove-all">Remove all items</a>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-12">
+        	  <ul class="items">
+              	<li class="item"><h2><input type="checkbox"> Oranges <a class="btn btn-danger remove">Remove item</a></h2></li>
+              	<li class="item"><h2><input type="checkbox"> Apples <a class="btn btn-danger remove">Remove item</a></h2></li>
+              	<li class="item"><h2><input type="checkbox"> Juice <a class="btn btn-danger remove">Remove item</a></h2></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div><!--/.col-xs-12.col-sm-9-->
+      </div><!--/row-->
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
